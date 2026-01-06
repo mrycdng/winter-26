@@ -1,0 +1,103 @@
+@font-face {
+    font-family: four-grotesk;
+    src: url(HALFourGrotesk-Regular.ttf);
+}
+
+body {
+    /* page formatting */
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    /* styling */
+    font-family: sans-serif;
+}
+
+/* h1 {
+    font-family: four-grotesk;
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: -0.2rem;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+h1 {
+    font-weight:normal;
+    font-size: 2rem;
+    margin-bottom:0rem;
+}
+
+h2 {
+    margin-top:0rem;
+    font-weight:normal;
+    font-size: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.heading {
+    justify-content:center;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    margin: 0rem;
+    font-size: 2rem;
+}
+
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+
+    margin: 0rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size:2rem;
+
+}
+.row {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    gap:1rem;
+
+}
+
+.row:hover {
+    font-size:2rem;
+}
+
+.day {
+    flex:1;
+    text-align: left;
+}
+.number {
+    flex:1;
+    text-align:left;
+}
+
+.title {
+    flex:4;
+    text-align:center;
+}
+
+
+.description {
+    flex: 4;
+    text-align:right;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
