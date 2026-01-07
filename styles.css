@@ -328,18 +328,16 @@ img {
     text-align:left;
 }
 
+li:hover {
+    text-decoration:underline;
+}
+
 .fave-sh {
     text-align:center;
 }
 
 .about-links {
     color:skyblue;
-}
-
-.about-links:hover {
-    /* color:lightyellow;
-    background-color:skyblue; */
-    text-decoration:underline;
 }
 
 #inspo {
