@@ -328,6 +328,14 @@ img {
     text-align:left;
 }
 
+.resolutions {
+    text-decoration:none!important;
+}
+
+li:hover {
+    text-decoration:underline;
+}
+
 .fave-sh {
     text-align:center;
 }
