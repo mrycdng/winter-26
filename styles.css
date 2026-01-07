@@ -147,6 +147,17 @@ a:hover {
     color:skyblue;
 }
 
+#tiger {
+    background-color:skyblue;
+    color:lightyellow;
+    text-decoration:underline;
+}
+#tiger:hover {
+    background-color:lightyellow;
+    color:skyblue;
+}
+
+
 /* css for about.html */
 
 #body2 {
