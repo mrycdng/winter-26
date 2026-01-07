@@ -147,7 +147,7 @@ a:hover {
     color:skyblue;
 }
 
-#tiger {
+.credit-links {
     background-color:skyblue;
     color:lightyellow;
     text-decoration:underline;
@@ -355,6 +355,6 @@ li:hover {
     color:skyblue;
 }
 
-#inspo {
+#credits {
     font-size:.8rem;
 }
