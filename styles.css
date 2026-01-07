@@ -342,7 +342,6 @@ img {
 .resolutions {
     text-decoration:none!important;
 }
-
 li:hover {
     text-decoration:underline;
 }
@@ -354,6 +353,7 @@ li:hover {
 .about-links {
     color:skyblue;
 }
+
 
 #credits {
     font-size:.8rem;
