@@ -284,6 +284,21 @@ a:hover {
     text-decoration:underline;
 }
 
+#web {
+    flex:1;
+    border-left:0px;
+    border-top:0px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+}
+
+#web:hover {
+    text-decoration:underline;
+}
+
 #about-row-3 {
     flex:7;
 }
