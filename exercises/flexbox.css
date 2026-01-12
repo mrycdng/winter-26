@@ -1,0 +1,102 @@
+@font-face {
+    font-family: four-grotesk;
+    src: url("/fonts/HALFourGrotesk-Regular.ttf");
+}
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+}
+
+
+#container {
+    background-color:rosybrown;
+    font-family:four-grotesk;
+    color:lightyellow;
+
+    width:100vw;
+    height:100vh;
+    padding:10px;
+
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    gap:10px;
+}
+
+div {
+    width:100%;
+    height:100%;
+}
+
+#row-1 {
+    display:flex;
+    flex-direction:row;
+    height:20%;
+    justify-content:space-between;
+    gap:10px;
+}
+
+#row-2 {
+    display:flex;
+    flex-direction:row;
+    height:80%;
+    justify-content:space-between;
+    gap:10px;
+
+}
+
+.box {
+    display:flex-column;
+    align-content:center;
+    text-align:center;
+}
+
+.red {
+    height:100%;
+    background-color:indianred;
+
+}
+
+#purple {
+    width:50%;
+    height:100%;
+    background-color:thistle;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#purple-inner {
+    width:20%;
+    height:20%;
+    background-color:lightyellow;
+    color:indianred;
+}
+
+#column-2 {
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.yellow {
+    width:100%;
+    background-color:tan;
+}
+
+a {
+    text-decoration:underline;
+    color:lightyellow;
+}
+
+a:hover {
+    color:indianred;
+}
