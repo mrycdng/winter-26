@@ -1,0 +1,185 @@
+@font-face {
+    font-family: jetbrains-mono;
+    font-style: normal;
+    src: url(JetBrainsMono-Regular.woff2);
+}
+
+@font-face {
+    font-family: unifraktur;
+    font-style: normal;
+    src: url(UnifrakturMaguntia-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: jetbrains-mono;
+    font-size: .8rem;
+}
+
+#header,
+#footer {
+    flex: .35;
+    background-color: rgb(85, 95, 98);
+    color: #f4f4f4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+#container {
+    flex: 9.3;
+    background-color: rgb(74, 82, 85);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#window {
+    width: 80vw;
+    height: 80vh;
+    background-color: darkgrey;
+    border: 5px solid #f4f4f4;
+    border-radius: 120px;
+    background-image: url(train-window.gif);
+    background-size: cover;
+}
+
+/* cover layer */
+
+
+#personal,
+#bible {
+    font-family: unifraktur;
+}
+
+#personal {
+    font-size: 1.5rem;
+    margin-top:1.5rem;
+}
+
+#bible {
+    font-size: 3rem;
+    margin-top: -1.2rem;
+}
+
+#versesof,
+#comfort,
+#assurance,
+#salvation {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    
+}
+
+#versesof {
+    margin-top: -2rem;
+}
+
+#comfort {
+    font-size: 1rem;
+}
+#assurance {
+    font-size:1.2rem;
+}
+#salvation {
+    font-size:1.5rem;
+}
+
+#cover {
+    text-decoration:none;
+    position: absolute;
+    width: 160px;
+    height: 230px;
+    background-color: red;
+    color: black;
+
+    text-align: center;
+    padding:20px;
+    z-index: 10;
+}
+
+#cover:hover {
+    background-color:rgb(234, 16, 31);
+    transition:0.25s;
+}
+
+#pages {
+    width:fit-content;
+    height:fit-content;
+    position:absolute;
+    margin:auto;
+    display:flex;
+}
+
+.left-page, .right-page {
+    text-decoration:none;
+    width: 160px;
+    height: 230px;
+    background-color: #f4f4f4;
+    color: black;
+
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:1rem;
+    padding:20px;
+
+}
+.left-page {
+    border-right:1px solid #e2e2e2;
+}
+.left-page:hover {
+    background-color: #e2e2e2;
+    transition:0.25s;
+}
+#left-page-1 {
+    background-color:red;
+}
+#left-page-1:hover {
+    background-color:rgb(234, 16, 31);
+    transition:0.25s;
+}
+.right-page:hover {
+    background-color: #e2e2e2;
+    transition:0.25s;
+}
+#right-page-1 {
+    font-weight:normal;
+}
+#small-bold {
+    font-weight:bold;
+    font-size:.7rem;
+}
+
+.text {
+    position:relative;
+    top:-35px;
+}
+.page-number {
+    position:relative;
+    top:-25px;
+    text-align:left;
+}
+
+.justified-left {
+    text-align:justify;
+}
+
+.justified-full {
+    text-align:justify;
+    text-align-last:justify;
+}
+
+.centered {
+    text-align:center;
+    text-align-last:center;
+}
