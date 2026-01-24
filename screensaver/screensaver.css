@@ -48,8 +48,8 @@ body {
     height:187px;
     width:187px;
     position:relative;
-    top:-310px;
-    left:-12px;
+    top:-303px;
+    left:-13px;
     content:url(record-lightsteelblue.png);
 
     animation: spin 3s infinite linear;
@@ -85,6 +85,9 @@ p {
     .record {
         content:url(record-thistle.png);
     }
+    audio {
+        content:url(rach.mp3);
+    }
     #p1 {
         display:none;
     }
@@ -100,6 +103,9 @@ p {
     }
     .record {
         content:url(record-goldenrod.png);
+    }
+    audio {
+        content:url(tchaik.mp3);
     }
     #p1 {
         display:none;
@@ -119,7 +125,9 @@ p {
     .record {
         content:url(record-green.png);
     }
-
+    audio {
+        content:url(greensleeves.mp3);
+    }
     #p1 {
         display:none;
     }
@@ -133,3 +141,4 @@ p {
         display:block;
     }
 }
+
