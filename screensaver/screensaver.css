@@ -49,8 +49,8 @@ body {
     height:187px;
     width:187px;
     position:relative;
-    top:-304px;
-    left:-12px;
+    top:-310px;
+    left:-13px;
     content:url(record-lightsteelblue.png);
 
     animation: spin 3s infinite linear;
