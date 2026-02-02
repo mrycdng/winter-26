@@ -1,0 +1,48 @@
+body {
+    background-color:rgb(255, 0, 60);
+    height:100vh;
+    width:100vw;
+
+    overflow:hidden;
+
+    font-style:italic;
+    font-size:3.6rem;
+
+    
+}
+
+.thought {
+    position: absolute;
+    white-space: nowrap;
+  }
+
+#connector {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+  }
+
+
+.fill {
+    text-transform:uppercase;
+    text-decoration:underline;
+
+    font-style:normal;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size:3.2rem;
+    padding-bottom:20px;
+
+    color:white;
+    filter:drop-shadow(0px 0px 4mm rgb(255, 255, 255));
+
+
+}
+
+p {
+    height:fit-content;
+}

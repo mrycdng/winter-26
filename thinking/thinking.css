@@ -1,0 +1,37 @@
+body {
+    background-color:rgb(255, 0, 60);
+    height:100vh;
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+
+    font-style:italic;
+    font-size:3.6rem;
+
+    
+}
+
+.fill {
+    text-transform:uppercase;
+    text-decoration:underline;
+
+    font-style:normal;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size:3.2rem;
+    padding-bottom:20px;
+
+    color:white;
+    filter:drop-shadow(0px 0px 4mm rgb(255, 255, 255));
+
+
+}
+
+p {
+    height:fit-content;
+}
