@@ -12,8 +12,8 @@ function fillSpans(ppl) {
   fillSpans(ppl);
 
 
-//The following code is generated with the aid of Chat GPT as required by my assignment.
-//I asked for each "thinking about ___" segment to have a random position in the canvas, and for svg lines to connect each span with the class "fill"
+//The following code is generated with the aid of ChatGPT as required by my assignment.
+//I asked for each "thinking about ___" span to have a random position in the canvas, and for svg lines to connect each span with the class "fill"
 
 function layoutThoughts() {
     const thoughts = document.querySelectorAll(".thought");
@@ -22,10 +22,10 @@ function layoutThoughts() {
     const vw = window.innerWidth;
     const vh = window.innerHeight;
   
-    // clear old lines
+    // ChatGPT here clears all SVG lines
     svg.innerHTML = "";
   
-    // random position each thought
+    // ChatGPT here generates random x + y coordinates for each span
     thoughts.forEach(t => {
       const x = Math.random() * (vw - t.offsetWidth);
       const y = Math.random() * (vh - t.offsetHeight);
@@ -34,7 +34,7 @@ function layoutThoughts() {
       t.style.top = y + "px";
     });
   
-    // collect span centers
+    // ChatGPT here finds the center of each span
     const fills = [...document.querySelectorAll(".fill")];
   
     const points = fills.map(span => {
@@ -45,7 +45,7 @@ function layoutThoughts() {
       };
     });
   
-    // draw lines connecting them in order
+    // ChatGPT here draws svg lines between the coordinates of two spans
     for (let i = 0; i < points.length - 1; i++) {
       const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
   
@@ -61,11 +61,10 @@ function layoutThoughts() {
     }
   }
   
-  // run on load + resize
+  // ChatGPT here is having the code run immediately on load, and then every time the window’s resized
   layoutThoughts();
   window.addEventListener("resize", layoutThoughts);
   
-  // An interesting part of Chat GPT is that it automatically added a user-xp-enhancing element that I didn’t conceive of...
-
-  // optional: re-randomize on click for generative feel
+  // An interesting part of Chat GPT is that it automatically added a user-experience-enhancing element that I didn’t conceive of...
+  // It wrote code for re-randomizing the position of the spans on click.
   document.addEventListener("click", layoutThoughts);

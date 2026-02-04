@@ -35,3 +35,11 @@ body {
 p {
     height:fit-content;
 }
+
+#reflection {
+    font-size:1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:normal;
+    width:70%;
+    color:white;
+}
